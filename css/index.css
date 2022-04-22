@@ -54,3 +54,92 @@ html{
     background: white;
     color: rgb(13, 6, 117);
 }
+
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.body{
+    background: tomato;
+}
+
+.primero{
+    padding: 3%;
+}
+
+.segundo{
+    padding: 3%;    
+}
+
+.tercero{
+    padding: 3%;    
+}
+
+.footer{
+    margin-top: 25px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.data{
+    background: gainsboro;
+    color: black;
+}
+
+.map{
+    width: 50%;
+}
+
+@media screen and (min-width: 660px) and (max-width: 989px){
+
+    .body{
+        background: yellow;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-top{
+        display: none;
+    }
+
+    .primero{
+        width: 100%;
+    }
+
+    .primero figure{
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .segundo{
+        width: 50%; 
+    }
+
+    .tercero{
+        width: 50%; 
+    }
+
+}
+
+
+
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(42, 170, 221);
+    }
+
+}
